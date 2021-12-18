@@ -5,8 +5,8 @@ import speech_recognition as sr
 from random import choice
 from utils import opening_text
 import requests
-from functions.online_ops import find_my_ip, get_random_advice, get_random_joke, get_trending_movies, get_weather_report, play_on_youtube, search_on_google, search_on_wikipedia, send_email, send_whatsapp_message
-from functions.os_ops import open_calculator, open_camera, open_cmd, open_vscode, open_skype
+from functions.online_ops import find_my_ip, get_latest_news, get_random_advice, get_random_joke, get_trending_movies, get_weather_report, play_on_youtube, search_on_google, search_on_wikipedia, send_email, send_whatsapp_message
+from functions.os_ops import open_calculator, open_camera, open_cmd, open_notepad, open_discord
 from pprint import pprint
 
 USERNAME = config('USER')
